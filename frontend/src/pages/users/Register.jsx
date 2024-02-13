@@ -45,6 +45,7 @@ const Register = () => {
   return (
     <section className="card">
       <h1 className="title">Create a new account</h1>
+      <h3>"Don't use your own email."</h3>
 
       <form onSubmit={handleRegister}>
         <input
